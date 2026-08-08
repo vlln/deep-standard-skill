@@ -1,0 +1,10 @@
+{
+  "$comment": "字数预算 manifest（L3）。扁平映射：文档路径 → 字数上限。门禁校验两个方向：超限、以及此处列了但文件不存在。上限是护栏不是缩减目标；期望规模（target）与 5% 余量规则写在 docs/AGENTS.md 的散文里，不进本文件——一个事实一个家。抬上限必须在 PR 里给理由。按项目实际文档删改下列条目。",
+  "AGENTS.md": 1600,
+  "docs/AGENTS.md": 1250,
+  "docs/architecture.md": 1800,
+  "docs/development.md": 1500,
+  "decisions/README.md": 1750,
+  "packages/AGENTS.md": 650,
+  "packages/README.md": 600
+}
