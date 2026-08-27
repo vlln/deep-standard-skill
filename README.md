@@ -40,7 +40,7 @@
 ### [skit](https://github.com/vlln/skit)（推荐）
 
 ```bash
-skit install https://github.com/dsh-external/deep-standard-skill/tree/main/skills/deep-standard
+skit install https://github.com/vlln/deep-standard-skill/tree/main/skills/deep-standard
 ```
 
 ### 手动安装
@@ -49,7 +49,7 @@ skit install https://github.com/dsh-external/deep-standard-skill/tree/main/skill
 |-------|------|
 | **Claude Code** | `cp -r skills/deep-standard .claude/skills/` |
 | **Codex** | `cp -r skills/deep-standard ~/.codex/skills/` |
-| **OpenCode** | `git clone https://github.com/dsh-external/deep-standard-skill.git ~/.opencode/skills/deep-standard-skill` |
+| **OpenCode** | `git clone https://github.com/vlln/deep-standard-skill.git ~/.opencode/skills/deep-standard-skill` |
 | **任意 Agent（符号链接）** | `ln -s <repo>/skills/deep-standard <agent-skills-dir>/deep-standard` |
 
 ## 技能
